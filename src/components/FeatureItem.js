@@ -12,7 +12,7 @@ export default ({item}) => {
 
     return (
         <section className='feature' style={{
-            backgroungSize:'cover',
+            backgroundSize:'cover',
             backgroundPosition: 'center',
             backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`
         }}>
