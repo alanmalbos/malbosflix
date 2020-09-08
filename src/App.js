@@ -63,6 +63,13 @@ export default () => {
         Image rights to <a href='https://www.netflix.com/'><strong>Netflix</strong></a><br/>
         Data from <a href='https://www.themoviedb.org/'><strong>TheMovieDB.org</strong></a>
       </footer>
+      
+      {featureItem === null &&
+      <div className='loading'>
+        <img src='https://www.filmelier.com/pt/br/news/wp-content/uploads/2020/03/netflix-loading-471x256.gif' alt='Loading'/>
+      </div>
+      }
+      
     </div>
   );
 }

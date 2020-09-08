@@ -8,7 +8,11 @@ export default ({item}) => {
     for(let i in item.genres){
         genres.push( item.genres[i].name);
     }
-    let description = item.overview.substr(0, 250);
+    let description = item.overview;
+    if(description.length > 200){
+        description = description.substr(0, 200) + '...';
+    }
+    
 
     return (
         <section className='feature' style={{
@@ -24,7 +28,7 @@ export default ({item}) => {
                         <div className='feature--year'>{firstDate.getFullYear()}</div>
                         <div className='feature--seasons'>{item.number_of_seasons} temporada{item.number_of_seasons !== 1 && 's'}</div>
                     </div>
-                    <div className='feature--description'>{description}...</div>
+                    <div className='feature--description'>{description}</div>
                     <div className='feature--buttons'>
                         <a href={`/watch/${item.id}`} className='feature--watchbutton'>▸ Assistir</a>
                         <a href={`/list/add/${item.id}`} className='feature--mylistbutton'>+ Minha Lista</a>
