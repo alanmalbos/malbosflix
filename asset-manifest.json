@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/malbosflix/static/css/main.cac9c799.chunk.css",
+    "main.js": "/malbosflix/static/js/main.caf81ff8.chunk.js",
+    "main.js.map": "/malbosflix/static/js/main.caf81ff8.chunk.js.map",
+    "runtime-main.js": "/malbosflix/static/js/runtime-main.920eb60b.js",
+    "runtime-main.js.map": "/malbosflix/static/js/runtime-main.920eb60b.js.map",
+    "static/js/2.ca913881.chunk.js": "/malbosflix/static/js/2.ca913881.chunk.js",
+    "static/js/2.ca913881.chunk.js.map": "/malbosflix/static/js/2.ca913881.chunk.js.map",
+    "index.html": "/malbosflix/index.html",
+    "precache-manifest.574e22103ee385d18649bff5c16a29e2.js": "/malbosflix/precache-manifest.574e22103ee385d18649bff5c16a29e2.js",
+    "service-worker.js": "/malbosflix/service-worker.js",
+    "static/css/main.cac9c799.chunk.css.map": "/malbosflix/static/css/main.cac9c799.chunk.css.map",
+    "static/js/2.ca913881.chunk.js.LICENSE.txt": "/malbosflix/static/js/2.ca913881.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.920eb60b.js",
+    "static/js/2.ca913881.chunk.js",
+    "static/css/main.cac9c799.chunk.css",
+    "static/js/main.caf81ff8.chunk.js"
+  ]
+}
